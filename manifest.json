@@ -1,0 +1,11 @@
+{
+  "name": "Fight With Me",
+  "description": "A simple embedded Discord Activity demo",
+  "version": "1.0.0",
+  "application_id": "1425192803889315882",
+  "type": "EMBEDDED",
+  "domain": "fightwithme.pages.dev",
+  "assets": [],
+  "redirects": [],
+  "instance_mode": "ON_DEMAND"
+}

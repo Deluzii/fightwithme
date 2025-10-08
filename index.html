@@ -1,70 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fight With Me – Discord Activity</title>
-
+  <meta charset="UTF-8">
+  <title>Fight With Me</title>
+  <script type="module" src="./main.js"></script>
   <style>
-    html, body {
-      background-color: #23272A;
+    body {
+      font-family: sans-serif;
+      background: #23272A;
       color: white;
-      height: 100%;
-      margin: 0;
-      font-family: "Segoe UI", sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      height: 100vh;
       gap: 20px;
     }
- 
-    h1 {
-      font-size: 32px;
-      margin: 0;
-      color: #99AAB5;
-    }
-
     button {
       background: #5865F2;
-      color: white;
       border: none;
       border-radius: 8px;
-      padding: 16px 28px;
-      font-size: 20px;
+      color: white;
+      padding: 12px 22px;
+      font-size: 18px;
       cursor: pointer;
-      transition: background 0.2s, transform 0.1s;
-    }
-
-    button:hover {
-      background: #4752C4;
-      transform: translateY(-2px);
-    }
-
-    button:active {
-      background: #D83C3E;
-      transform: scale(0.98);
-    }
-
-    #message {
-      font-size: 22px;
-      opacity: 0;
-      transition: opacity 0.3s ease-in-out;
-      min-height: 40px;
-    }
-
-    #message.visible {
-      opacity: 1;
     }
   </style>
 </head>
-
 <body>
-  <h1>⚔️ Fight With Me ⚔️</h1>
-  <button id="btnHello">👋 Hi</button>
-  <div id="message"></div>
-
-  <!-- ✅ Load logic -->
-  <script type="module" src="./main.js"></script>
+  <h1>Fight With Me</h1>
+  <button id="hiBtn">👋 Say Hi</button>
+  <div id="log"></div>
 </body>
 </html>
