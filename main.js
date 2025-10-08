@@ -1,4 +1,4 @@
-import * as DiscordSDK from "https://cdn.jsdelivr.net/npm/@discord/embedded-app-sdk@1.2.0/+esm";
+import { DiscordSDK } from "@discord/embedded-app-sdk";
 
 window.addEventListener("DOMContentLoaded", async () => {
   const btn = document.getElementById("btnHello");
